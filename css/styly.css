@@ -97,22 +97,21 @@ body {
     padding: 7%;
     background-color: #65a9d9;
 }
-#validate {
-    background-color: #77c344;
-    color: rgba(255, 255, 255, 255);
-}
 
-#form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .track-form {
     color: #f7f6f2;
     text-align: center;
 }
+.track-form h1{
+    margin-bottom: 5%;
+}
+.track-form h3{
+    margin-bottom: 5%;
+    font-size: 1.1rem;
+}
 .track-form p {
     font-size: 0.7rem;
+    margin-bottom: 5%;
 }
 .track-span {
     display: inline-block;
@@ -121,13 +120,30 @@ body {
     font-size: 0.8rem;
     width: 12%;
     height: 30%;
+}
+#validate {
+    background-color: #77c344;
+    color: rgba(255, 255, 255, 255);
+    padding: 2%;
+    border-radius: 10%;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input {
 
+    margin-bottom: 5%;
+    padding: 2%;
+    width: 80%;
 }
 
 
 /* Start Run string*/
 .marquee {
     width: 100%;
+    padding: 5%;
     margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
@@ -136,7 +152,9 @@ body {
    
    .marquee span {
     display: inline-block;
-    padding-left: 10%;
+    padding-left: 35%;
+    font-size: 1.5rem;
+    color: #989ea7;
     animation: marquee 15s linear infinite;
    }
    
@@ -152,12 +170,35 @@ body {
 
 
     /*Start our-benefits*/
+.our-benefits {
+    padding: 2%;
+}    
 .our-benefits li div {
     display: flex;
    }
 .our-benefits h1 {
-text-align: center;
-color: #5d6471;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #5d6471;
+}
+.our-benefits-title span {
+    color: #4c92ca;
+    width: 11%;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+.our-benefits-title h3 {
+    color: rgba(45, 57, 76, 255);
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+.our-benefits-list p {
+    padding-bottom: 7%;
+    font-size: 1rem;
+    color: rgba(148, 153, 162, 255);
+    text-align: left;
 }
 /*End our-benefits*/
 
@@ -169,18 +210,19 @@ color: #5d6471;
 }
 .slider-list {
  background-color: #f6f6f7;
-
 }
 .slider-list h1 {
     text-align: center;
     font-size: 1rem;
     color: rgba(45, 57, 76, 255);
+    margin-bottom: 5%;
 }
 .slider-list-item {
     display: flex;
     justify-content: space-between;
     color: rgba(45, 57, 76, 255);
     font-size: 0.8rem;
+    margin-bottom: 5%;
 }
 .slider-icon {
     color: #64a4d7;
@@ -195,15 +237,21 @@ color: #5d6471;
 
 
 /*Start save_time*/
+.save-time {
+    padding: 7%;
+}
 .save-time h1 {
     text-align: center;
     color: #5a626e;
+    font-size: 1.4rem;
+    margin-bottom: 5%;
 }
 .save-time p  {
     font-family: "Italic";
     color: #707781;
     font-size: 0.8rem;
     text-align: center;
+    margin-bottom: 15%;
 }
 #form-time {
     display: flex;
@@ -213,6 +261,18 @@ color: #5d6471;
 #validate-time {
     background-color: #77c344;
     color: rgba(255, 255, 255, 255);
+    padding: 4%;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    width: 43%;
+}
+.input-time {
+    padding: 3%;
+    width: 85%;
+    font-size: 1rem;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 5%;
+
 }
 /*End save_time*/
  
@@ -231,6 +291,22 @@ color: #5d6471;
     display: flex;
     border-left: 1px solid #a2a2a2;
 
+}
+.footer-icon-list  a{
+    margin-left: 30%;
+  
+}
+.footer-twitter {
+    color: #4cbcf6;
+    font-size: 1rem;
+}
+.footer-facebook {
+    color: #4a6daa;
+    font-size: 1rem;
+}
+.footer-google {
+    color: #e74c40;
+    font-size: 1rem;
 }
 .footer-img {
     color: #d6d6d6;
