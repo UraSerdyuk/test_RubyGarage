@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "Regular";
+    src: url("../fonts/FiraSans-Regular.woff") format("woff");
+    src: url("../fonts/FiraSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Italic";
+    src: url("../fonts/FiraSans-Italic.woff") format("woff");
+    src: url("../fonts/FiraSans-Italic.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    color: rgba(45, 57, 76, 255);
+    text-align: center;
+    font-size: 1.6rem;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: "Regular";
+    font-size: 1rem;
+}
+.conteiner {
+    min-width: 30rem;
+    max-width: 93.75rem;
+    margin: 0 auto;
+}
+.header {
+    background-color: #ffffff;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+.logo-custom-img {
+    color: rgba(255, 206, 84, 255);
+    text-align: center;
+    font-size: 1.6rem;
+}
+.logo-custom-name {
+    color: #333333;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.logo-custom-name2 {
+    color: #a2c8e3;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.navigate ul {
+    display: flex;
+}
+/* ==============================================*/
+.menu {
+    color: #000;
+    font-size: 30px;
+    margin-top: 2px;
+}
+.custom {
+    display: none;
+}
+.logo-custom {
+    display: flex;
+}
+.navigation {
+    display: none;
+}
+.toogle {
+    display: block;
+    font-family: "Regular";
+}
+.navigation  {
+    color: rgba(45, 57, 76, 255);
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
+
+/* Section Track*/
+.track {
+    width: 100%;
+    padding: 7%;
+    background-color: #65a9d9;
+}
+#validate {
+    background-color: #77c344;
+    color: rgba(255, 255, 255, 255);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.track-form {
+    color: #f7f6f2;
+    text-align: center;
+}
+.track-form p {
+    font-size: 0.7rem;
+}
+.track-span {
+    display: inline-block;
+    background-color: #ffce54;
+    border-radius: 12%;
+    font-size: 0.8rem;
+    width: 12%;
+    height: 30%;
+
+}
+
+
+/* Start Run string*/
+.marquee {
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #f8f8f8;
+   }
+   
+   .marquee span {
+    display: inline-block;
+    padding-left: 10%;
+    animation: marquee 15s linear infinite;
+   }
+   
+   .marquee span:hover {
+    animation-play-state: paused
+   }
+   
+   @keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+   }
+   /*End run string*/
+
+
+    /*Start our-benefits*/
+.our-benefits li div {
+    display: flex;
+   }
+.our-benefits h1 {
+text-align: center;
+color: #5d6471;
+}
+/*End our-benefits*/
+
+
+    /* Start REVIEWS */
+.reviews {
+    background-color: #f6f6f7;
+    height: 100px;
+}
+/* End REVIEWS */
+
+
+/*Start save_time*/
+.save-time h1 {
+    text-align: center;
+    color: #5a626e;
+}
+.save-time p  {
+    font-family: "Italic";
+    color: #707781;
+    font-size: 0.8rem;
+    text-align: center;
+}
+#form-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#validate-time {
+    background-color: #77c344;
+    color: rgba(255, 255, 255, 255);
+}
+/*End save_time*/
+ 
+
+   /*Start footer*/
+.footer {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+.footer-logo {
+    display: flex;
+}
+.footer-icon-list {
+    display: flex;
+    border-left: 1px solid #a2a2a2;
+
+}
+.footer-img {
+    color: #d6d6d6;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.logo-footer-name {
+    color: #a2a2a2;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.logo-footer-name2 {
+    color: #d6d6d6;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+   /*End footer*/
