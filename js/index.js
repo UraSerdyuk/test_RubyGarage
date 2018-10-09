@@ -17,7 +17,7 @@ logoMenu.addEventListener('click',function () {
 $(document).ready(function(){
     $('.slider').slick({
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 15000,
     });
   });
 /*End Slick*/

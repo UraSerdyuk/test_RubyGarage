@@ -165,7 +165,31 @@ color: #5d6471;
     /* Start REVIEWS */
 .reviews {
     background-color: #f6f6f7;
-    height: 100px;
+    padding: 10%;
+}
+.slider-list {
+ background-color: #f6f6f7;
+
+}
+.slider-list h1 {
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(45, 57, 76, 255);
+}
+.slider-list-item {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(45, 57, 76, 255);
+    font-size: 0.8rem;
+}
+.slider-icon {
+    color: #64a4d7;
+
+}
+.slider-list p {
+    font-size: 0.8rem;
+    color: rgba(90, 98, 110, 255);
+    text-align: left;
 }
 /* End REVIEWS */
 
