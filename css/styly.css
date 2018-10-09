@@ -195,7 +195,7 @@ body {
     line-height: 1.7rem;
 }
 .our-benefits-list p {
-    padding-bottom: 7%;
+    margin-bottom: 7%;
     font-size: 1rem;
     color: rgba(148, 153, 162, 255);
     text-align: left;
@@ -379,9 +379,104 @@ body {
 }
 }
 @media (min-width: 768px)  {
-    body{
-        background-clip: green;
-    }
+.menu {
+    display: none;
+}
+.header {
+    display: flex;
+}
+.logo {
+    justify-content: space-around;
+    flex-grow: 3;
+}
+.navigation {
+    display: block;
+    flex-grow: 2;
+}
+.navigation ul {
+    display: flex;
+    justify-content: space-around;
+    line-height: 4.7rem;
+}
+.navigation a {
+    font-size: 1rem;
+}
+.track-form h1 {
+    margin-bottom: 15%;
+    font-size: 2.9rem;
+}
+.track-form h3 {
+    font-size: 1.4rem;
+    
+}
+.input {
+    font-size: 1.5rem;
+}
+.our-benefits h1 {
+    font-size: 2.7rem;
+}
+
+.our-benefits h1 {
+    font-size: 2.7rem;
+    padding-bottom: 10%;
+}
+.our-benefits-list {
+    padding: 3%;
+}
+.our-benefits-title span {
+    height: 3rem;
+    font-size: 2.4rem;
+}
+.our-benefits-title h3 {
+    font-size: 1.8rem;
+    line-height: 3.1rem;
+}
+
+.our-benefits-list p {
+    font-size: 1.4rem;
+    margin-bottom: 4%;
+}
+.our-benefits li div {
+    margin-bottom: 2%;
+}
+.marquee span {
+    font-size: 2.5rem;
+}
+.slider-list h1 {
+    font-size: 1.8rem;
+}
+.slider-list p {
+    font-size: 1.4rem;
+}
+.slider-icon {
+    font-size: 3rem;
+}
+.slider-list-item h3 {
+    font-size: 2.2rem;
+}
+.save-time {
+    padding: 15%;
+}
+.save-time h1 {
+    font-size: 2.7rem;
+    margin-bottom: 10%;
+}
+.save-time p {
+    font-size: 1.4rem;
+}
+.footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer-twitter {
+    font-size: 1.4rem;
+}
+.footer-facebook {
+    font-size: 1.4rem;
+}
+.footer-google {
+    font-size: 1.4rem;
+}
 }
 @media (min-width: 960px) {
     body{
