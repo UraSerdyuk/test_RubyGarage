@@ -323,5 +323,73 @@ body {
     text-align: center;
     font-size: 1.6rem;
 }
-
    /*End footer*/
+@media (min-width: 480px) {
+.logo {
+    justify-content: space-between;
+    padding: 3%;
+}
+.track {
+    padding: 10%;
+}
+.track-form h1 {
+    margin-bottom: 10%;
+    font-size: 2.4rem;
+}
+#validate {
+    padding: 3%;
+    border-radius: 8%;
+    width: 30%;
+    font-size: 1rem;
+}
+.track-form p {
+    margin-bottom: 15%;
+}
+.our-benefits {
+    padding: 3%;
+}
+.reviews {
+    padding: 5%;
+
+}
+.slider-list h1 {
+    font-size: 1.8rem;
+}
+.slider-list p {
+    font-size: 0.9rem;
+}
+.slider-list-item {
+    justify-content: space-around;
+    font-size: 1.2rem;  
+}
+.slider-icon {
+    font-size: 2rem;
+}
+.save-time {
+    padding: 10%;
+}
+.save-time h1 {
+    font-size: 2rem;
+}
+.save-time p {
+    font-size: 1.2rem;
+}
+.input-time {
+    margin-bottom: 10%;
+}
+}
+@media (min-width: 768px)  {
+    body{
+        background-clip: green;
+    }
+}
+@media (min-width: 960px) {
+    body{
+        background-clip: black;
+    }
+}
+@media (min-width: 1024px) {
+    body{
+        background-clip: white;
+    }
+}
