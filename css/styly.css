@@ -577,7 +577,7 @@ display: none;
 @media (min-width: 960px) {
 
 iframe {
-    height: 340px;
+    height: 329px;
 }
 .track {
     display: flex;
@@ -701,6 +701,9 @@ width: 80%;
 }
 }
 @media (min-width: 1024px) {
+    iframe {
+        height: 258px;
+    }
 .marquee {
     padding: 3%;
 }
@@ -723,5 +726,16 @@ width: 80%;
 }
 .track-form {
     padding-top: 13%;
+}
+}
+@media (min-width: 1440px){
+    iframe {
+        height: 378px;
+    }
+
+}
+@media (min-width: 2560px) {
+iframe {
+    height: 492px;
 }
 }
