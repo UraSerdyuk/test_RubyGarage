@@ -35,6 +35,9 @@ body {
     font-family: "Regular";
     font-size: 1rem;
 }
+iframe {
+    width: 100%;
+}
 .conteiner {
     min-width: 30rem;
     max-width: 93.75rem;
