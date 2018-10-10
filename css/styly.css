@@ -203,6 +203,9 @@ body {
     color: rgba(148, 153, 162, 255);
     text-align: left;
 }
+.our_benefits_maps img {
+display: none;
+}
 /*End our-benefits*/
 
 
@@ -568,6 +571,7 @@ width: 80%;
     padding: 1%;
 }
 .our_benefits_maps img  {
+    display: block;
     position: absolute;
     width: 100%;
     margin-left: 5.5%;
@@ -603,7 +607,13 @@ width: 80%;
 }
 }
 @media (min-width: 1024px) {
-    body{
-        background-clip: white;
-    }
+.marquee {
+    padding: 3%;
+}
+.input-time {
+    width: 60%;
+}
+.our-benefits {
+    padding-bottom: 5%;
+}
 }
