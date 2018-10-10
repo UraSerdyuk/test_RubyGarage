@@ -574,6 +574,10 @@ display: none;
 }
 }
 @media (min-width: 960px) {
+
+iframe {
+    height: 340px;
+}
 .track {
     display: flex;
     justify-content: space-between;
