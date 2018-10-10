@@ -144,15 +144,15 @@ iframe {
 
 }
 .track-form h1{
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 }
 .track-form h3{
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
     font-size: 1.1rem;
 }
 .track-form p {
     font-size: 0.7rem;
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 }
 .track-span {
     display: inline-block;
@@ -183,7 +183,7 @@ box-shadow: -2px -2px 43px 0px rgba(34,78,79,1);
 }
 .input {
 
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
     padding: 2%;
     width: 80%;
 }
@@ -269,7 +269,7 @@ box-shadow: -2px -2px 43px 0px rgba(34,78,79,1);
     line-height: 1.7rem;
 }
 .our-benefits-list p {
-    margin-bottom: 7%;
+    margin-bottom: 1.4rem;
     font-size: 1rem;
     color: rgba(148, 153, 162, 255);
     text-align: left;
@@ -292,14 +292,14 @@ display: none;
     text-align: center;
     font-size: 1rem;
     color: rgba(45, 57, 76, 255);
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 }
 .slider-list-item {
     display: flex;
     justify-content: space-between;
     color: rgba(45, 57, 76, 255);
     font-size: 0.8rem;
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 }
 .slider-list-item::before {
     content: "";
@@ -331,14 +331,14 @@ display: none;
     text-align: center;
     color: #5a626e;
     font-size: 1.4rem;
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 }
 .save-time p  {
     font-family: "Italic";
     color: #707781;
     font-size: 0.8rem;
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 3rem;
 }
 #form-time {
     display: flex;
@@ -366,7 +366,7 @@ display: none;
     width: 85%;
     font-size: 1rem;
     border: 1px solid #d1d1d1;
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 
 }
 /*End save_time*/
@@ -428,7 +428,7 @@ display: none;
     padding: 10%;
 }
 .track-form h1 {
-    margin-bottom: 10%;
+    margin-bottom: 2rem;
     font-size: 2.4rem;
 }
 #validate {
@@ -438,7 +438,7 @@ display: none;
     font-size: 1rem;
 }
 .track-form p {
-    margin-bottom: 15%;
+    margin-bottom: 3rem;
 }
 .our-benefits {
     padding: 3%;
@@ -470,7 +470,7 @@ display: none;
     font-size: 1.2rem;
 }
 .input-time {
-    margin-bottom: 10%;
+    margin-bottom: 2rem;
 }
 }
 @media (min-width: 768px)  {
@@ -498,7 +498,7 @@ display: none;
     line-height: 7rem;
 }
 .track-form h1 {
-    margin-bottom: 15%;
+    margin-bottom: 3rem;
     font-size: 2.9rem;
 }
 .track-form h3 {
@@ -530,10 +530,10 @@ display: none;
 
 .our-benefits-list p {
     font-size: 1.4rem;
-    margin-bottom: 4%;
+    margin-bottom: 0.9rem;
 }
 .our-benefits li div {
-    margin-bottom: 2%;
+    margin-bottom: 0.4rem;
 }
 .marquee span {
     font-size: 2.5rem;
@@ -555,7 +555,7 @@ display: none;
 }
 .save-time h1 {
     font-size: 2.7rem;
-    margin-bottom: 10%;
+    margin-bottom: 2rem;
 }
 .save-time p {
     font-size: 1.4rem;
@@ -596,17 +596,17 @@ width: 80%;
 }
 .track-form h1 {
     text-align: left;
-    margin-bottom: 10%;
-    margin-bottom: 8%;
+    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
 }
 .track-form h3 {
     text-align: left;
     font-size: 1.1rem;
-    margin-bottom: 15%;
+    margin-bottom: 2rem;
 }
 .track-form p {
     text-align: left;
-    margin-bottom: 10%;
+    margin-bottom: 2rem;
 }
 #form {
     justify-content: space-between;
@@ -690,7 +690,7 @@ width: 80%;
     width: 70%;
 }
 .slider-list h1 {
-    margin-bottom: 13%;
+    margin-bottom: 2.2rem;
 }
 .slider-list-item h3 {
     font-size: 1.3rem;
