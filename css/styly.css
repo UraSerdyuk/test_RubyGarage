@@ -100,6 +100,7 @@ body {
     width: 100%;
     padding: 7%;
     background-color: #65a9d9;
+    position: relative;
 }
 
 .track-form {
@@ -113,7 +114,7 @@ body {
     content: "\f0c2";
     color: #fff;
     font-size: 2rem;
-    top: 30%;
+    top: 13%;
     left: 4%;
     position: absolute;
 
@@ -133,7 +134,7 @@ body {
     content: "\f0c2";
     color: #fff;
     font-size: 1.6rem;
-    top: 100%;
+    top: 82%;
     left: 1%;
     position: absolute;
 
@@ -192,8 +193,8 @@ box-shadow: -2px -2px 43px 0px rgba(34,78,79,1);
     content: "\f0c2";
     color: #fff;
     font-size: 2rem;
-    top: 40%;
-    right: 22%;
+    top: 19%;
+    right: 18%;
     position: absolute;
 }
 .track-img::after {
@@ -203,8 +204,8 @@ box-shadow: -2px -2px 43px 0px rgba(34,78,79,1);
     content: "\f0c2";
     color: #fff;
     font-size: 2rem;
-    top: 105%;
-    right: 13%;
+    top: 80%;
+    right: 10%;
     position: absolute;
 }
 
