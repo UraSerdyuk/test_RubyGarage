@@ -138,6 +138,9 @@ body {
     padding: 2%;
     width: 80%;
 }
+.track-img {
+    display: none;
+}
 
 
 /* Start Run string*/
@@ -479,9 +482,125 @@ body {
 }
 }
 @media (min-width: 960px) {
-    body{
-        background-clip: black;
-    }
+.track {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    /* height: 36.7rem; */
+    padding: 1%;
+    padding-bottom: 0;
+}
+.track-img {
+    display: block;
+width: 80%;
+}
+.track-form {
+    padding: 5%;
+}
+.track-form h1 {
+    text-align: left;
+    margin-bottom: 10%;
+    margin-bottom: 8%;
+}
+.track-form h3 {
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 15%;
+}
+.track-form p {
+    text-align: left;
+    margin-bottom: 10%;
+}
+#form {
+    justify-content: space-between;
+    flex-direction: row;
+}
+.input {
+    margin-bottom: 0;
+    padding: 1%;
+    width: 65%;
+}
+#validate {
+    width: 27%;
+}
+.save-time {
+    padding: 10%;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+.input-time {
+    margin-bottom: 0;
+    width: 50%;
+}
+#validate-time {
+    padding: 2.2%;
+    width: 28.7%;
+    font-size: 1.6rem;
+}
+#form-time {
+    flex-direction: row;
+    justify-content:space-between;
+}
+.benefits {
+    display: flex;
+}
+.footer {
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.benefits-list {
+    width: 80%;
+}
+.our-benefits-title span {
+    font-size: 1.4rem;
+}
+.our-benefits-title h3 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+.our-benefits-list p {
+    font-size: 0.7rem;
+    margin-bottom: 0%;
+}
+
+.our-benefits-list {
+    padding: 1%;
+}
+.our_benefits_maps img  {
+    position: absolute;
+    width: 100%;
+    margin-left: 5.5%;
+}
+.our_benefits_maps {
+    position: relative;
+    width: 100%;
+}
+.maps {
+    position: absolute;
+    left: 23.8%;
+    width: 80%;
+    top: 6.5%;
+}
+.reviews {
+    padding: 15%;
+}
+.slider-icon {
+    font-size: 1.5rem;
+}
+.slider-list-item {
+    width: 70%;
+}
+.slider-list h1 {
+    margin-bottom: 13%;
+}
+.slider-list-item h3 {
+    font-size: 1.3rem;
+}
+.slider-list p {
+    font-size: 0.9rem;
+    width: 70%;
+}
 }
 @media (min-width: 1024px) {
     body{
