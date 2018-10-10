@@ -22,16 +22,7 @@ $(document).ready(function(){
   });
 /*End Slick*/
 
-// Smooth scroll
-// (function ($) {
-//     $(".test").click(function () {
-//       $("html, body").animate({
-//         scrollTop: $($(this).attr("#our-benefits")).offset().top
-//       },2000);
-//       return false;
-//     });
-//   })($);
-
+//Scroll
 $(document).ready(function(){
     $('.test, .test2').click( function(){ // ловим клик по ссылке с классом go_to
 	var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .

@@ -84,8 +84,8 @@ iframe {
 .navigation {
     display: none;
 }
-.navigation ul li:hover {
-    border-bottom: 2px solid rgb(44, 208, 230);
+.navigation ul li a:hover {
+    color: rgb(44, 208, 230);
 
 }
 .toogle {
