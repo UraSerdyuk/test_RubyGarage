@@ -113,7 +113,7 @@ body {
     content: "\f0c2";
     color: #fff;
     font-size: 2rem;
-    top: 47%;
+    top: 30%;
     left: 4%;
     position: absolute;
 
@@ -125,7 +125,7 @@ body {
     content: "\f0c2";
     color: #fff;
     font-size: 1.6rem;
-    top: 177%;
+    top: 100%;
     left: 1%;
     position: absolute;
 
@@ -183,7 +183,7 @@ box-shadow: -2px -2px 43px 0px rgba(34,78,79,1);
     content: "\f0c2";
     color: #fff;
     font-size: 2rem;
-    top: 64%;
+    top: 40%;
     right: 22%;
     position: absolute;
 }
@@ -194,7 +194,7 @@ box-shadow: -2px -2px 43px 0px rgba(34,78,79,1);
     content: "\f0c2";
     color: #fff;
     font-size: 2rem;
-    top: 174%;
+    top: 1%;
     right: 13%;
     position: absolute;
 }
